@@ -1,0 +1,88 @@
+:root {
+    --red: #e50914;
+    --black: #141414;
+    --ligth-grey: #FFF;
+    --grey: #AAA;
+}
+
+body {
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .6rem 1rem ;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--grey);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--ligth-grey)
+}
+
+.principal-movie {
+    font-size: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url('../src/img/Capa-Peaky-Blinders.jpg');
+    height: 25rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal-movie .title {
+    margin-top: 1.2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principal-movie .description {
+    margin-bottom: 2.5rem;
+    margin-top: .3rem;
+    font-size: 1.2rem;
+}
+
+.principal-movie .button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: .7rem 1.1rem;
+    margin-right: .9rem;
+    font-size: .8rem;
+    border: #FFF solid .1rem;
+    transition: all .5s ease-in-out;
+}
+
+.principal-movie .button:hover {
+    background-color: #FFF;
+    color: black;   
+}
+
+.principal-movie .button i {
+    margin-right: .4rem;
+}
+
+.principal-movie .container {
+    margin-left: 2rem;
+    width: 60%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+}
